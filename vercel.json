@@ -5,6 +5,7 @@
     { "src": "/api/permission", "dest": "/api/listPermission.js"},
     { "src": "/api/all/permission", "dest": "/api/listPermissions.js"},
     { "src": "/api/create/permission", "dest": "/api/createPermission.js"},
-    { "src": "/api/update/permission", "dest": "/api/updatePermission.js"}
+    { "src": "/api/update/permission", "dest": "/api/updatePermission.js"},
+    { "src": "/api/login", "dest": "/api/loginSession.js"}
   ]
 }
