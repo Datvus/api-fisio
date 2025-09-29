@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ message: "Método não permitido" });
   }
 
-  const { data, error } = await db.from("fisio_permission").select("*");
+  const { data, error } = await db.from("history").select("*");
 
   if (error) return res.status(500).json({ error: error.message });
 

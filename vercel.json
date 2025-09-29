@@ -6,6 +6,8 @@
     { "src": "/api/all/permission", "dest": "/api/listPermissions.js"},
     { "src": "/api/create/permission", "dest": "/api/createPermission.js"},
     { "src": "/api/update/permission", "dest": "/api/updatePermission.js"},
+    { "src": "/api/delete/permission", "dest": "/api/deletePermission.js"},
+    { "src": "/api/history", "dest": "/api/listHistory.js"},
     { "src": "/api/login", "dest": "/api/loginSession.js"}
   ]
 }
